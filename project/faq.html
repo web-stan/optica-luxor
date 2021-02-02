@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./bundle.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="popup registration" >
+    <div class="popup__wrapper">
+
+      <div class="popup__image">
+        <img src="./images/popup-registration.png" alt="" class="popup__img"></div>
+      <!-- popup__container -->
+      <div class="popup__right">
+        <form class="form-registration popup__container">
+          <div class="popup__close">
+            <span class="popup__close-line popup__close1"></span>
+            <span class="popup__close-line popup__close2"></span>
+          </div>
+          <div class="popup__title">реєстрація</div>
+          <div class="popup__notice">Є профiль, увiйдiть до свого профiлю <a href="#">ВXIД</a>
+          </div>
+
+          <div class="popup__tabs">
+            <div class="popup__tabs-labels">
+              <div class="popup__tab active">По EMAIL</div>
+              <div class="popup__tab">ЗА номером телефону</div>
+            </div>
+
+            <div class="popup__tabs-contents">
+              <!-- .popup__tabs-content -->
+              <div class="popup__tabs-content active">
+                <div class="popup__input-box">
+                  <input placeholder=" " type="text" class="popup__input popup__input-name">
+                  <div class="popup__floating-label">Iм’я</div>
+                </div>
+                <div class="popup__input-box">
+                  <input placeholder=" " type="email" class="popup__input popup__input-phone">
+                  <div class="popup__floating-label">Email</div>
+                </div>
+                <div class="popup__input-box">
+                  <input placeholder=" " type="password" class="popup__input popup__input-phone">
+                  <div class="popup__floating-label">Пароль</div>
+                </div>
+
+                <div class="popup__rules">
+                  <input class="popup__checkbox" id="registrationChecked1" type="checkbox" hidden>
+                  <label for="registrationChecked1" class="popup__rules-label">
+                    Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+                  </label>
+                </div>
+
+                <div class="popup__button-box">
+                  <button type="button" class="popup__button">ЗАреєструватися</button>
+                </div>
+              </div><!-- .popup__tabs-content -->
+
+              <!-- .popup__tabs-content -->
+              <div class="popup__tabs-content">
+                <div class="popup__input-box">
+                  <input placeholder=" " type="text" class="popup__input popup__input-name">
+                  <div class="popup__floating-label">Номер телефону</div>
+                </div>
+
+                <div class="popup__rules">
+                  <input class="popup__checkbox" id="registrationChecked" type="checkbox" hidden>
+                  <label for="registrationChecked" class="popup__rules-label">
+                    Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+                  </label>
+                </div>
+
+                <div class="popup__button-box">
+                  <button type="button" class="popup__button">НадiСЛАТИ ПАРОЛЬ ВХОДУ</button>
+                </div>
+              </div><!-- .popup__tabs-content -->
+            </div>
+          </div>
+
+        </form><!-- popup__container -->
+
+        <div class="popup__bottom">
+          <div class="popup__bottom-info">Або увiйдiть через соцiальнi мережi</div>
+          <div class="popup__bottom-links">
+            <a href="" class="popup__bottom-link">
+              <img src="./images/icons/popup-google.svg" alt=""></a>
+            <a href="" class="popup__bottom-link">
+              <img src="./images/icons/popup-facebook.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="popup entrance">
+    <div class="popup__wrapper">
+
+      <div class="popup__image">
+        <img src="./images/popup-entrance.png" alt="" class="popup__img"></div>
+      <!-- popup__container -->
+      <div class="popup__right">
+        <form class="form-entrance popup__container">
+          <div class="popup__close">
+            <span class="popup__close-line popup__close1"></span>
+            <span class="popup__close-line popup__close2"></span>
+          </div>
+          <div class="popup__title">ВХIД</div>
+          <div class="popup__notice">Немає профiлю, зареєструйтесь <a href="#">реєстрація</a>
+          </div>
+
+          <div class="popup__tabs">
+            <div class="popup__tabs-labels">
+              <div class="popup__tab active">По EMAIL</div>
+              <div class="popup__tab">ЗА номером телефону</div>
+            </div>
+
+            <div class="popup__tabs-contents">
+              <!-- .popup__tabs-content -->
+              <div class="popup__tabs-content active">
+                <div class="popup__input-box">
+                  <input placeholder=" " type="email" class="popup__input popup__input-name">
+                  <div class="popup__floating-label">Email</div>
+                </div>
+                <div class="popup__input-box">
+                  <input placeholder=" " type="password" class="popup__input popup__input-phone">
+                  <div class="popup__floating-label">Пароль</div>
+                </div>
+                <div class="popup__button-box">
+                  <button type="button" class="popup__button popup__button-enter">УВIЙТИ</button>
+                  <button type="button" class="popup__button popup__button-forgot-password">ЗАБУЛИ ПАРОЛЬ?</button>
+                </div>
+              </div><!-- .popup__tabs-content -->
+
+              <!-- .popup__tabs-content -->
+              <div class="popup__tabs-content">
+                <div class="popup__input-box">
+                  <input placeholder=" " type="text" class="popup__input popup__input-name">
+                  <div class="popup__floating-label">Номер телефону</div>
+                </div>
+                <div class="popup__button-box">
+                  <button type="button" class="popup__button">НадiСЛАТИ ПАРОЛЬ ВХОДУ</button>
+                </div>
+              </div><!-- .popup__tabs-content -->
+            </div>
+          </div>
+
+        </form><!-- popup__container -->
+        <div class="popup__bottom">
+          <div class="popup__bottom-info">Або увiйдiть через соцiальнi мережi</div>
+          <div class="popup__bottom-links">
+            <a href="" class="popup__bottom-link">
+              <img src="./images/icons/popup-google.svg" alt=""></a>
+            <a href="" class="popup__bottom-link">
+              <img src="./images/icons/popup-facebook.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup code">
+      <!-- popup__container -->
+      <div class="popup__right">
+        <form class="form-code popup__container">
+          <div class="popup__close">
+            <span class="popup__close-line popup__close1"></span>
+            <span class="popup__close-line popup__close2"></span>
+          </div>
+          <div class="popup__title">Введiть код з СМС</div>
+          <div class="popup__notice">Я не отримав СМС з кодом, <a href="#">Надiслати Ще раз</a>
+          </div>
+
+        <!-- .popup__tabs-content -->
+          <div class="popup__input-box">
+            <input placeholder=" " type="email" class="popup__input popup__input-name">
+            <div class="popup__floating-label">Код</div>
+          </div>
+
+          <div class="popup__rules">
+            <input class="popup__checkbox" id="registrationChecked4" type="checkbox" hidden>
+            <label for="registrationChecked4" class="popup__rules-label">
+              Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+            </label>
+          </div>
+
+          <div class="popup__button-box">
+            <button type="button" class="popup__button popup__button-enter">УВIЙТИ</button>
+          </div>
+        </form><!-- popup__container -->
+      </div>
+  </div>
+
+  <div class="popup-call">
+    <form class="form-popup-call popup-call__wrapper">
+      <div class="popup-call__close">
+        <span class="popup-call__close-line popup-call__close1"></span>
+        <span class="popup-call__close-line popup-call__close2"></span></div>
+      <div class="popup-call__title">ЗАмовИТИ зворотнiй дзвiнок</div>
+      <div class="popup-call__input-box">
+        <input placeholder=" " type="text" class="popup-call__input popup-call__input-name">
+        <div class="popup-call__floating-label">Прiзвище та Iм’я</div>
+      </div>
+      <div class="popup-call__input-box">
+        <input placeholder=" " type="text" class="popup-call__input popup-call__input-phone">
+        <div class="popup-call__floating-label">Номер Вашого телефону</div>
+      </div>
+
+      <button class="popup-call__btn">ЗАМОВИТИ ДЗВIНОК</button>
+
+    </form>
+  </div>
+
+
+  <div class="menu">
+    <!-- .header__categories -->
+    <div class="menu__categories">
+      <div class="menu__category-wrapper">
+        <div class="menu__category menu__category-frame">
+          <span>Оправи</span>
+          <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+          </svg>
+        </div>
+
+        <!-- category-details  frame-->
+        <div class="menu-details menu-details--frame">
+          <!-- <div class="category-details__wrapper"> -->
+          <ul class="menu-details__list">
+            <li class="menu-details__title"><a href="#">назва Категорiї</a></li>
+            <li class="menu-details__id"><a href="#">Squadrata</a></li>
+            <li class="menu-details__id"><a href="#">Round</a></li>
+            <li class="menu-details__id"><a href="#">Drop</a></li>
+            <li class="menu-details__id"><a href="#">Rectangular</a></li>
+            <li class="menu-details__id"><a href="#">Cat Eye</a></li>
+            <li class="menu-details__id"><a href="#">Geometric</a></li>
+            <li class="menu-details__id"><a href="#">Oval</a></li>
+          </ul>
+          <ul class="menu-details__list menu-details__list--mod">
+            <li class="menu-details__title"><a href="#">бренди</a></li>
+            <li class="menu-details__id"><a href="#">Polaroid</a></li>
+            <li class="menu-details__id"><a href="#">Ray-Ban</a></li>
+            <li class="menu-details__id"><a href="#">Oakley</a></li>
+            <li class="menu-details__id"><a href="#">Dolche & Gabbana</a></li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div class="menu__category-wrapper">
+        <div class="menu__category menu__category-sunglasses">
+          <span>Сонцезахиснi оКуляри</span>
+          <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+          </svg>
+        </div>
+
+        <div class="menu-details menu-details--sunglasses">
+          <ul class="menu-details__list">
+            <li class="menu-details__title"><a href="#">назва Категорiї</a></li>
+            <li class="menu-details__id"><a href="#">Squadrata</a></li>
+            <li class="menu-details__id"><a href="#">Round</a></li>
+            <li class="menu-details__id"><a href="#">Drop</a></li>
+            <li class="menu-details__id"><a href="#">Rectangular</a></li>
+            <li class="menu-details__id"><a href="#">Cat Eye</a></li>
+            <li class="menu-details__id"><a href="#">Geometric</a></li>
+            <li class="menu-details__id"><a href="#">Oval</a></li>
+          </ul>
+          <ul class="menu-details__list menu-details__list--mod">
+            <li class="menu-details__title"><a href="#">бренди</a></li>
+            <li class="menu-details__id"><a href="#">Polaroid</a></li>
+            <li class="menu-details__id"><a href="#">Ray-Ban</a></li>
+            <li class="menu-details__id"><a href="#">Oakley</a></li>
+            <li class="menu-details__id"><a href="#">Dolche & Gabbana</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu__category-wrapper">
+        <div class="menu__category menu__category-lenses">
+          <span>Контактнi ЛIнзИ</span>
+          <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+          </svg>
+        </div>
+        <div class="menu-details menu-details--lenses">
+
+          <ul class="menu-details__list">
+            <li class="menu-details__title"><a href="#">Марка / Бренд</a></li>
+            <li class="menu-details__id"><a href="#">Squadrata</a></li>
+            <li class="menu-details__id"><a href="#">Round</a></li>
+            <li class="menu-details__id"><a href="#">Drop</a></li>
+            <li class="menu-details__id"><a href="#">Rectangular</a></li>
+          </ul>
+          <ul class="menu-details__list menu-details__list--mod">
+            <li class="menu-details__title"><a href="#">терміни носіння</a></li>
+            <li class="menu-details__id"><a href="#">Одноденні лінзи</a></li>
+            <li class="menu-details__id"><a href="#">Двотижневі</a></li>
+            <li class="menu-details__id"><a href="#">Мiсячнi</a></li>
+            <li class="menu-details__id"><a href="#">Лінзи на 3 місяці</a></li>
+            <li class="menu-details__id"><a href="#">Пiврічні</a></li>
+            <li class="menu-details__id"><a href="#">Річні</a></li>
+            <li class="menu-details__id"><a href="#">Астигматичні</a></li>
+            <li class="menu-details__id"><a href="#">Кольоровi лiнзи</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href=# class="menu__services">Послуги</a>
+    </div>
+    <!-- .header__wrapper -->
+    <div class="menu__bottom-wrapper">
+      <div class="header__lang-wrapper">
+        <div class="header__lang">
+          <span>UA</span>
+          <svg class="header__arrow header__lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+          </svg>
+        </div>
+        <div class="header__dropdown-wrapper">
+          <div class="header__lang-dropdown">
+            <a href="#" class="header__lang-dropdown-item">RU</a>
+            <a href="#" class="header__lang-dropdown-item">UA</a>
+            <a href="#" class="header__lang-dropdown-item">EN</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__bottom-box">
+        <div class="header__private-wrapper menu-entrance">
+          <!-- добавляем класс .block когда НЕЗАрегистрирован -->
+          <div class="header__private-text block">Увiйти</div>
+
+          <!-- добавляем класс .registered когда ЗАрегистрирован  -->
+          <div class="header__private-text">Вийти</div>
+          <div class="header__icon header__private">
+            <img src="./images/icons/private.svg" alt="">
+          </div>
+        </div>
+        <div class="header__icon header__selected">
+          <img src="./images/icons/selected.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION main-screen -->
+  <section class="main-screen white-bg">
+    <div class="container">
+      <div class="header">
+        <div class="humburger">
+          <div class="humburger__line humburger__line-first"></div>
+          <div class="humburger__line humburger__line-second"></div>
+          <div class="humburger__line humburger__third"></div>
+        </div>
+        <a href="#" class="header__logo">
+          <img src="./images/luxor-logo.png" alt="">
+        </a>
+        <!-- .header__categories -->
+        <div class="header__categories">
+          <div class="header__category-wrapper">
+            <a href="#" class="header__category header__category-frame">
+              <span>Оправи</span>
+              <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+              </svg>
+            </a>
+
+            <!-- category-details  frame-->
+            <div class="category-details">
+              <!-- <div class="category-details__wrapper"> -->
+              <ul class="category-details__list">
+                <li class="category-details__title"><a href="#">назва Категорiї</a></li>
+                <li class="category-details__id"><a href="#">Squadrata</a></li>
+                <li class="category-details__id"><a href="#">Round</a></li>
+                <li class="category-details__id"><a href="#">Drop</a></li>
+                <li class="category-details__id"><a href="#">Rectangular</a></li>
+                <li class="category-details__id"><a href="#">Cat Eye</a></li>
+                <li class="category-details__id"><a href="#">Geometric</a></li>
+                <li class="category-details__id"><a href="#">Oval</a></li>
+              </ul>
+              <ul class="category-details__list category-details__list--mod">
+                <li class="category-details__title"><a href="#">бренди</a></li>
+                <li class="category-details__id"><a href="#">Polaroid</a></li>
+                <li class="category-details__id"><a href="#">Ray-Ban</a></li>
+                <li class="category-details__id"><a href="#">Oakley</a></li>
+                <li class="category-details__id"><a href="#">Dolche & Gabbana</a></li>
+              </ul>
+              <!-- </div> -->
+
+              <div class="category-details__wrapper">
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- category-layout -->
+            <div class="category-layout"></div>
+          </div>
+
+          <div class="header__category-wrapper">
+            <a href="#" class="header__category header__category-sunglasses">
+              <span>Сонцезахиснi оКуляри</span>
+              <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+              </svg>
+            </a>
+
+             <!-- category-details  frame-->
+             <div class="category-details">
+              <!-- <div class="category-details__wrapper"> -->
+              <ul class="category-details__list">
+                <li class="category-details__title"><a href="#">назва Категорiї</a></li>
+                <li class="category-details__id"><a href="#">Squadrata</a></li>
+                <li class="category-details__id"><a href="#">Round</a></li>
+                <li class="category-details__id"><a href="#">Drop</a></li>
+                <li class="category-details__id"><a href="#">Rectangular</a></li>
+                <li class="category-details__id"><a href="#">Cat Eye</a></li>
+                <li class="category-details__id"><a href="#">Geometric</a></li>
+                <li class="category-details__id"><a href="#">Oval</a></li>
+              </ul>
+              <ul class="category-details__list category-details__list--mod">
+                <li class="category-details__title"><a href="#">бренди</a></li>
+                <li class="category-details__id"><a href="#">Polaroid</a></li>
+                <li class="category-details__id"><a href="#">Ray-Ban</a></li>
+                <li class="category-details__id"><a href="#">Oakley</a></li>
+                <li class="category-details__id"><a href="#">Dolche & Gabbana</a></li>
+              </ul>
+              <!-- </div> -->
+
+              <div class="category-details__wrapper">
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item">
+                  <img src="./images/optica-frame.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Guess 1982 002
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old"></span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- category-layout -->
+            <div class="category-layout"></div>
+          </div>
+
+          <div class="header__category-wrapper">
+            <a href="#" class="header__category header__category-lenses">
+              <span>Контактнi ЛIнзИ</span>
+              <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+              </svg>
+            </a>
+            <!-- category-details lenses"-->
+            <div class="category-details ">
+              <!-- <div class="category-details__wrapper"> -->
+              <ul class="category-details__list">
+                <li class="category-details__title"><a href="#">Марка / Бренд</a></li>
+                <li class="category-details__id"><a href="#">Squadrata</a></li>
+                <li class="category-details__id"><a href="#">Round</a></li>
+                <li class="category-details__id"><a href="#">Drop</a></li>
+                <li class="category-details__id"><a href="#">Rectangular</a></li>
+              </ul>
+              <ul class="category-details__list category-details__list--mod">
+                <li class="category-details__title"><a href="#">терміни носіння</a></li>
+                <li class="category-details__id"><a href="#">Одноденні лінзи</a></li>
+                <li class="category-details__id"><a href="#">Двотижневі</a></li>
+                <li class="category-details__id"><a href="#">Мiсячнi</a></li>
+                <li class="category-details__id"><a href="#">Лінзи на 3 місяці</a></li>
+                <li class="category-details__id"><a href="#">Пiврічні</a></li>
+                <li class="category-details__id"><a href="#">Річні</a></li>
+                <li class="category-details__id"><a href="#">Астигматичні</a></li>
+                <li class="category-details__id"><a href="#">Кольоровi лiнзи</a></li>
+              </ul>
+              <!-- </div> -->
+
+              <div class="category-details__wrapper ">
+                <a href="#" class="category-details__item lenses">
+                  <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Одноденні контактні лінзи Alcon Dailies Aqua
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old">
+                        1 499 грн
+                      </span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item lenses">
+                  <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Одноденні контактні лінзи Alcon Dailies Aqua
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old">
+                        1 499 грн
+                      </span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="category-details__item lenses">
+                  <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                  <!-- category-details__item-descr -->
+                  <div class="category-details__item-descr">
+                    <div class="category-details__item-info">
+                      Одноденні контактні лінзи Alcon Dailies Aqua
+                    </div>
+                    <div class="category-details__item-price">
+                      <span class="category-details__item-price-old">
+                        1 499 грн
+                      </span>
+                      <span class="category-details__item-price-new">
+                        3 050 грн
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- category-layout -->
+            <div class="category-layout"></div>
+          </div>
+
+          <a href=# class="header__services">Послуги</a>
+
+        </div>
+
+        <!-- .header__wrapper -->
+        <div class="header__wrapper">
+          <div class="header__lang-wrapper">
+            <div class="header__lang">
+              <span>UA</span>
+              <svg class="header__arrow header__lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+              </svg>
+            </div>
+            <div class="header__dropdown-wrapper">
+              <div class="header__lang-dropdown">
+                <a class="header__lang-dropdown-item">RU</a>
+                <a class="header__lang-dropdown-item">UA</a>
+                <a class="header__lang-dropdown-item">EN</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="header__icon header__search">
+            <img src="./images/icons/search.svg" alt="">
+          </div>
+
+          <div class="header__search-open-wrapper">
+            <div class="header__search-open ">
+              <div class="header__search-input-box">
+                <img class="header__search-search" src="./images/icons/search.svg" alt="">
+                <input type="text" class="header__search-input" placeholder="Пошук...">
+                <img class="header__search-close" src="./images/icons/header-search-close.svg" alt="">
+              </div>
+
+              <div class="header__search-icon">
+                <img src="./images/icons/header-search-icon.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="header__private-wrapper">
+            <div class="header__icon header__private">
+              <img src="./images/icons/private.svg" alt="">
+            </div>
+            <div class="header__dropdown-wrapper">
+              <!-- добавляем класс .block когда ЗАрегистрирован  -->
+              <div class="header__registered-dropdown">
+                <a href="#" class="header__registered-dropdown-item">МIЙ КАБIНЕТ</a>
+                <a href="#" class="header__registered-dropdown-item">ВИЙТИ</a>
+              </div>
+              <!-- добавляем класс .block когда НЕЗАрегистрирован -->
+              <div class="header__notregistered-dropdown block">
+                <a href="#" class="header__notregistered-dropdown-item header__notregistered-dropdown-enter">УВIЙТИ</a>
+                <a href="#" class="header__notregistered-dropdown-item header__notregistered-dropdown-item-registration">ЗАреєстрУВАТИСЬ</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__icon header__selected">
+            <img src="./images/icons/selected.svg" alt="">
+          </div>
+          <!-- при добавления товара в корзину, добавляем класс .inside -->
+          <div class="header__icon header__basket inside">
+            <a href="#">
+              <img src="./images/icons/basket.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="header-message">
+          <!-- При отображении сообщени добавть класс .show -->
+          <div class="header-message__info green show-">Товар додано в кошик</div>
+        </div>
+
+        <div class="header-message">
+          <!-- При отображении сообщени добавть класс .show -->
+          <div class="header-message__info red show-">Товар додано до вподобаних</div>
+        </div>
+
+        <div class="header-message">
+          <!-- При отображении сообщени добавть класс .show -->
+          <div class="header-message__info blue show-">Дякую, Ваш вiдгук буде опублiковано пiсля перевiрки модератора</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container faq__container">
+      <div class="breadcrumbs">
+        <a href="#" class="breadcrumbs__item">ГОЛОВНА</a><span>/</span><a href="#" class="breadcrumbs__item active">Питання та вiдповiдi</a>
+      </div>
+      <div class="faq__big-title">
+        <img src="./images/big-title.svg" alt="">
+      </div>
+
+
+    <div class="faq__wrapper">
+      <div class="faq__title-wrapper">
+        <div class="faq__title">Питання та вiдповiдi</div>
+        <div class="faq__title-decor"></div>
+      </div>
+      <div class="accordion">
+
+        <div class="accordion__item-wrapper">
+          <div class="accordion__item-box">
+
+            <div class="accordion__item">Питання1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
+            </div>
+
+            <!-- <div class="accordion__item-decor-wrapper"> -->
+              <div class="accordion__item-decor">
+                <span class="accordion__item-line accordion__item-line1"></span>
+                <span class="accordion__item-line accordion__item-line2"></span>
+              </div>
+            <!-- </div> -->
+          </div>
+
+          <div class="accordion__item-content">Вiдповiдь Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div class="accordion__item-wrapper active">
+          <div class="accordion__item-box">
+
+            <div class="accordion__item">Питання1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
+            </div>
+
+            <div class="accordion__item-decor-wrapper">
+              <div class="accordion__item-decor">
+                <span class="accordion__item-line accordion__item-line1"></span>
+                <span class="accordion__item-line accordion__item-line2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__item-content">Вiдповiдь Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div class="accordion__item-wrapper">
+          <div class="accordion__item-box">
+
+            <div class="accordion__item">Питання1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
+            </div>
+
+            <div class="accordion__item-decor-wrapper">
+              <div class="accordion__item-decor">
+                <span class="accordion__item-line accordion__item-line1"></span>
+                <span class="accordion__item-line accordion__item-line2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__item-content">Вiдповiдь Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div class="accordion__item-wrapper">
+          <div class="accordion__item-box">
+
+            <div class="accordion__item">Питання4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.?
+            </div>
+
+            <div class="accordion__item-decor-wrapper">
+              <div class="accordion__item-decor">
+                <span class="accordion__item-line accordion__item-line1"></span>
+                <span class="accordion__item-line accordion__item-line2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__item-content">Вiдповiдь Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div class="accordion__item-wrapper">
+          <div class="accordion__item-box">
+
+            <div class="accordion__item">Питання1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
+            </div>
+
+            <div class="accordion__item-decor-wrapper">
+              <div class="accordion__item-decor">
+                <span class="accordion__item-line accordion__item-line1"></span>
+                <span class="accordion__item-line accordion__item-line2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__item-content">Вiдповiдь Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- <section class="appointment-doctor">
+    <div class="container">
+      <div class="appointment-doctor__wrpapper">
+        <div class="appointment-doctor__notation">
+          <div class="appointment-doctor__subtitle subtitle">Записатись до ЛIкаря</div>
+          <h4  class="appointment-doctor__title">Послуги офтальмолога</h4>
+          <a href="#" class="default-btn">
+            <span class="default-btn__text">ЗАПИСАТИСь НА ПРИЙОМ</span>
+            <span class="default-btn__decor">
+              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.64078 0.199244C6.4654 0.415176 6.46852 0.750501 6.64462 0.967389L7.99578 2.39538L0.605953 2.39596C0.271299 2.39596 0 2.6659 0 2.99887L0.00407676 3.06917C0.0390802 3.36901 0.295203 3.60176 0.605953 3.60176L7.99639 3.60129L6.68896 4.98221C6.46984 5.20049 6.45545 5.62979 6.69165 5.85293C6.92428 6.07272 7.33721 6.03442 7.56238 5.816L9.83571 3.41297C9.94486 3.29758 10.0004 3.15713 10 2.99846C9.99408 2.84491 9.9339 2.68862 9.83576 2.5848L7.56782 0.187216C7.32215 -0.0332798 6.92711 -0.0729969 6.69304 0.143497L6.64078 0.199244Z" fill="currentColor"></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <a href="#" class="offer__contacts">
+          <div class="offer__contacts-img">
+            <img src="./images/icons/contacts-img.svg" alt="">
+          </div>
+
+          <div class="offer__contacts-decor-box">
+            <div class="offer__contacts-decor">
+            </div>
+            <div class="offer__contacts-decor-img">
+              <img src="./images/icons/contacts-arrow.svg" alt=""></div>
+          </div>
+          <div class=" offer__contacts-title">Контакт-центр</div>
+          <div class="offer__contacts-subtitle">Задати питання 24 / 7</div>
+          <div class="offer__contacts-description">Якщо у Вас виникли питання, маете скарги, або побажання, зв’яжiться з нами. Наши спецiалiсти допомможуть Вам</div>
+        </a>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="appointment-doctor">
+    <div class="container container--mod">
+
+
+  <div class="communication">
+    <div class="reception" style="background-image: url(./images/services-luxor__slide-1.png);">
+        <span class="reception-text">Записатись до лікаря</span>
+        <span class="reception-title">Послуги офтальмолога</span>
+        <a href="#" class="default-btn">
+          <span class="default-btn__text">ЗАПИСАТИСь НА ПРИЙОМ</span>
+          <span class="default-btn__decor">
+            <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.64078 0.199244C6.4654 0.415176 6.46852 0.750501 6.64462 0.967389L7.99578 2.39538L0.605953 2.39596C0.271299 2.39596 0 2.6659 0 2.99887L0.00407676 3.06917C0.0390802 3.36901 0.295203 3.60176 0.605953 3.60176L7.99639 3.60129L6.68896 4.98221C6.46984 5.20049 6.45545 5.62979 6.69165 5.85293C6.92428 6.07272 7.33721 6.03442 7.56238 5.816L9.83571 3.41297C9.94486 3.29758 10.0004 3.15713 10 2.99846C9.99408 2.84491 9.9339 2.68862 9.83576 2.5848L7.56782 0.187216C7.32215 -0.0332798 6.92711 -0.0729969 6.69304 0.143497L6.64078 0.199244Z" fill="currentColor"></path>
+            </svg>
+          </span>
+        </a>
+    </div>
+    <div class="question">
+        <div class="flex flex-between">
+            <span class="question-text">Контакт-центр</span>
+            <svg class="question-icon" width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.3191 0.771484H4.68085C3.4401 0.773587 2.25082 1.23509 1.37347 2.05491C0.496132 2.87473 0.00224977 3.98605 0 5.14545V25.8224C0.00224977 26.9818 0.496132 28.0931 1.37347 28.9129C2.25082 29.7327 3.4401 30.1942 4.68085 30.1963H7.65957V36.9561C7.66105 37.1823 7.73042 37.4036 7.85981 37.5948C7.9892 37.786 8.17341 37.9394 8.39149 38.0377C8.56296 38.1093 8.74836 38.1472 8.93617 38.149C9.24677 38.1568 9.54962 38.0577 9.78723 37.8706L19.5745 30.1963H35.3191C36.5599 30.1942 37.7492 29.7327 38.6265 28.9129C39.5039 28.0931 39.9977 26.9818 40 25.8224V5.14545C39.9977 3.98605 39.5039 2.87473 38.6265 2.05491C37.7492 1.23509 36.5599 0.773587 35.3191 0.771484ZM37.4468 25.8224C37.4468 26.3497 37.2226 26.8554 36.8236 27.2282C36.4246 27.6011 35.8834 27.8105 35.3191 27.8105H19.1489C18.8389 27.8063 18.5374 27.905 18.2979 28.0889L15.6255 30.1963L10.2128 34.4112V29.0034C10.2128 28.6871 10.0783 28.3836 9.83886 28.1599C9.59945 27.9362 9.27474 27.8105 8.93617 27.8105H4.68085C4.11656 27.8105 3.57538 27.6011 3.17637 27.2282C2.77735 26.8554 2.55319 26.3497 2.55319 25.8224V5.14545C2.55319 4.61815 2.77735 4.11246 3.17637 3.7396C3.57538 3.36675 4.11656 3.15728 4.68085 3.15728H35.3191C35.8834 3.15728 36.4246 3.36675 36.8236 3.7396C37.2226 4.11246 37.4468 4.61815 37.4468 5.14545V25.8224Z" fill="#F3F3F3"></path>
+                <path d="M20.9622 19.8933C20.8238 19.765 20.6589 19.6639 20.4775 19.5961C20.296 19.5282 20.1017 19.4949 19.906 19.4983C19.7065 19.4944 19.5082 19.5274 19.3225 19.5952C19.1368 19.663 18.9675 19.7643 18.8243 19.8933C18.6815 20.021 18.5685 20.1745 18.4923 20.3444C18.4161 20.5143 18.3784 20.6968 18.3814 20.8808C18.3705 21.0718 18.4062 21.2627 18.4859 21.4391C18.5655 21.6155 18.687 21.7731 18.8414 21.8999C19.134 22.1415 19.5144 22.2713 19.906 22.2633C20.2869 22.268 20.6554 22.1381 20.9366 21.8999C21.0885 21.7716 21.2077 21.6136 21.2858 21.4374C21.3639 21.2612 21.3988 21.0711 21.3881 20.8808C21.3923 20.6981 21.3568 20.5165 21.2836 20.3468C21.2105 20.1771 21.1011 20.0229 20.9622 19.8933ZM24.3692 10.0892C23.9404 9.50882 23.3523 9.04517 22.6657 8.74619C21.8657 8.40259 20.9919 8.23239 20.1105 8.24849C19.1624 8.22792 18.2243 8.43184 17.3849 8.841C16.662 9.18718 16.0486 9.70171 15.6047 10.3341C15.2281 10.8656 15.0187 11.4838 15 12.1196C15.0038 12.2683 15.0396 12.4148 15.1054 12.5505C15.1713 12.6862 15.2657 12.8083 15.3833 12.9096C15.5081 13.0332 15.6603 13.1303 15.8293 13.1944C15.9984 13.2585 16.1803 13.288 16.3628 13.2809C16.9931 13.2809 17.4189 12.9254 17.6489 12.2302C17.8154 11.6749 18.1056 11.1582 18.5007 10.7133C18.7175 10.5286 18.9732 10.3876 19.2518 10.2992C19.5303 10.2109 19.8256 10.177 20.119 10.1998C20.6822 10.1815 21.2314 10.3655 21.6521 10.7133C21.8406 10.8703 21.9906 11.063 22.092 11.2783C22.1933 11.4936 22.2438 11.7266 22.2398 11.9615C22.2449 12.2081 22.1772 12.4513 22.0439 12.6647C21.915 12.8816 21.7545 13.0809 21.5669 13.2572C21.3796 13.431 21.0729 13.6943 20.6471 14.0472C20.2423 14.3682 19.8557 14.7084 19.4887 15.0663C19.1951 15.3592 18.9613 15.6992 18.7988 16.0696C18.619 16.4973 18.5322 16.9537 18.5432 17.4126C18.5284 17.5832 18.5517 17.7548 18.6118 17.9166C18.6719 18.0784 18.7675 18.2269 18.8925 18.3528C19.1234 18.5527 19.4283 18.663 19.7442 18.6609C19.8904 18.6705 20.0371 18.6532 20.176 18.6098C20.3149 18.5664 20.4431 18.498 20.5532 18.4083C20.6633 18.3187 20.7532 18.2096 20.8175 18.0875C20.8819 17.9654 20.9195 17.8327 20.9281 17.697C21.0048 17.3968 21.0559 17.1835 21.09 17.065C21.133 16.9425 21.1871 16.8236 21.2518 16.7095C21.328 16.5617 21.4286 16.4258 21.5499 16.3066C21.6862 16.1644 21.8736 15.9906 22.095 15.801C22.9468 15.1216 23.4834 14.6397 23.7985 14.3553C24.1376 14.0556 24.4249 13.7092 24.6502 13.3283C24.8891 12.9045 25.0091 12.4318 24.9995 11.9536C25.0012 11.3025 24.7969 10.6652 24.4118 10.1208L24.3692 10.0892Z" fill="#F3F3F3"></path>
+            </svg>
+        </div>
+        <span class="question-title">Задати питання 24 / 7</span>
+        <div>
+            <p class="question-description">Якщо у Вас виникли питання, маєте скарги, або побажання,
+                зв’яжiться
+                з
+                нами. Наши спецiалiсти допомможуть Вам</p>
+            <a href="#" class="question-link">
+                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.64078 0.199244C6.4654 0.415176 6.46852 0.750501 6.64462 0.967389L7.99578 2.39538L0.605953 2.39596C0.271299 2.39596 0 2.6659 0 2.99887L0.00407676 3.06917C0.0390802 3.36901 0.295203 3.60176 0.605953 3.60176L7.99639 3.60129L6.68896 4.98221C6.46984 5.20049 6.45545 5.62979 6.69165 5.85293C6.92428 6.07272 7.33721 6.03442 7.56238 5.816L9.83571 3.41297C9.94486 3.29758 10.0004 3.15713 10 2.99846C9.99408 2.84491 9.9339 2.68862 9.83576 2.5848L7.56782 0.187216C7.32215 -0.0332798 6.92711 -0.0729969 6.69304 0.143497L6.64078 0.199244Z" fill="white"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
+  <footer class="footer">
+    <div class="container container--mod">
+      <div class="footer__background">
+        <div class="footer__top">
+          <!-- footer__common -->
+          <div class="footer__common">
+            <div class="footer__logo">
+              <img src="./images/footer-logo.png" alt="">
+            </div>
+
+            <div class="footer__short-descr">Оптика Люксор - це весь спектр офтальмологічних послуг та оптичних товарів.</div>
+            <div class="footer__phone">
+              <span class="footer__phone-icon"><img src="./images/icons/footer-phone-icon.svg" alt=""></span>
+              <a href="tel:+38 (066) 513 55 90" class="footer__phone-number">+38 (066) 513 55 90</a>
+            </div>
+            <div class="footer__phone">
+              <span class="footer__phone-icon"><img src="./images/icons/footer-phone-icon.svg" alt=""></span>
+              <a href="tel:+38 (097) 990 44 00" class="footer__phone-number">+38 (097) 990 44 00</a>
+            </div>
+            <div class="footer__button-wrapper">
+              <button class="footer__button">ЗАМОВИТИ ЗВОНОК</button>
+            </div>
+          </div>
+
+          <!-- footer__links -->
+          <div class="footer__links">
+            <!-- footer__link-column -->
+            <div class="footer__link-column">
+              <div class="footer__links-title">КАТАЛОГ</div>
+              <a href="#" class="footer__links-link">КОНТАКТНІ ЛІНЗИ
+              </a>
+              <a href="#" class="footer__links-link">СОНЦЕЗАХИСНІ ОКУЛЯРИ</a>
+              <a href="#" class="footer__links-link">ОКУЛЯРНІ ЛІНЗИ</a>
+              <a href="#" class="footer__links-link">ПЕНСНЕ SEEOO
+              </a>
+              <a href="#" class="footer__links-link">ОПРАВИ</a>
+            </div>
+            <!-- footer__link-column -->
+            <div class="footer__link-column footer__link-column--padding">
+              <div class="footer__links-title">СУПУТНI ТОВАРИ</div>
+              <a href="#" class="footer__links-link">РОЗЧИНИ ДЛЯ ЛІНЗ
+              </a>
+              <a href="#" class="footer__links-link">ЗВОЛОЖУЮЧІ КРАПЛІ
+              </a>
+              <a href="#" class="footer__links-link">ФУТЛЯРИ ДЛЯ ОКУЛЯРІВ</a>
+              <a href="#" class="footer__links-link">АКЦІЙНА ПРОПОЗИЦІЯ
+              </a>
+              <a href="#" class="footer__links-link">СУПУТНІ ТОВАРИ</a>
+            </div>
+            <!-- footer__link-column -->
+            <div class="footer__link-column footer__link-column--mod">
+              <div class="footer__links-title">ПРО НАС</div>
+              <a href="#" class="footer__links-link">ПОСЛУГИ
+              </a>
+              <a href="#" class="footer__links-link">Про нас</a>
+              <a href="#" class="footer__links-link">Лiкарi-офтальмологи</a>
+              <a href="#" class="footer__links-link">Салони
+              </a>
+              <a href="#" class="footer__links-link">Контакти</a>
+            </div>
+            <!-- footer__link-column -->
+            <div class="footer__link-column footer__link-column--mod footer__link-column--padding">
+              <div class="footer__links-title">IНШЕ</div>
+              <a href="#" class="footer__links-link">Питання та Вiдповiдi
+              </a>
+              <a href="#" class="footer__links-link">особистий кабiнет</a>
+              <a href="#" class="footer__links-link">Оплата та доставка</a>
+              <a href="#" class="footer__links-link">Гарантiя та Повернення
+              </a>
+              <a href="#" class="footer__links-link">НОВИНИ</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="footer__bottom">
+          <!-- footer__advantages -->
+          <div class="footer__advantages">
+            <div class="footer__advantages-title">Більше переваг для вас! Пiдпишиться на розсилку
+            </div>
+            <ul class="footer__advantages-list">
+              <li class="footer__advantages-item">Акційні пропозиції</li>
+              <li class="footer__advantages-item">Промокоди зі знижками</li>
+              <li class="footer__advantages-item">Новини</li>
+            </ul>
+            <div class="footer__email">
+              <input type="email" class="footer__advantages-email"></input>
+              <div class="footer__email-icon"><img src="./images/icons/footer-icon-plane.svg" alt=""></div>
+              <div class="footer__floating-label">
+                Email
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__bottom-wrapper">
+            <!-- footer__payment-system -->
+            <div class="footer__payment-system">
+              <div class="footer__payment-system-logo">
+                <img src="./images/footer-visa.png" alt=""></div>
+              <div class="footer__payment-system-logo">
+                <img src="./images/footer-mastercard.png" alt=""></div>
+            </div>
+
+            <!-- footer__social -->
+            <div class="footer__social">
+              <div class="footer__search footer__search--mod1">
+                <input placeholder="Не знайшли iнформацiю, скористайтесь пошуком..." type="text" class="footer__search-input">
+                <div class="footer__search-icon">
+                  <img src="./images/icons/footer-search-icon.svg" alt=""></div>
+              </div>
+              <div class="footer__search footer__search--mod2">
+                <input placeholder="Скористайтесь пошуком..." type="text" class="footer__search-input">
+                <div class="footer__search-icon">
+                  <img src="./images/icons/footer-search-icon.svg" alt=""></div>
+              </div>
+
+              <div class="footer__social-wrapper">
+                <span class="footer__social-text">Ми в соцiальних медiа</span>
+                <a href="#" class="footer__social-network footer__social-network--mod">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0V30H15.9768V18.4116H12.0712V13.6809H15.9768V9.70798C15.9768 6.81858 18.3191 4.47627 21.2085 4.47627H25.2916V8.73024H22.37C21.4518 8.73024 20.7075 9.47456 20.7075 10.3927V13.681H25.2182L24.5948 18.4117H20.7075V30H30V0H0Z" fill="currentColor" />
+                  </svg>
+                </a>
+                <a href="#" class="footer__social-network">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM0 0V30H30V0H0ZM25.03 19.9697C25.03 22.7602 22.7602 25.03 19.9697 25.03H10.0303C7.23981 25.03 4.97005 22.7602 4.97005 19.9697V10.0303C4.97005 7.23981 7.23981 4.97005 10.0303 4.97005H19.9697C22.7602 4.97005 25.03 7.23981 25.03 10.0303V19.9697ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017Z" fill="currentColor" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer__rights -->
+        <div class="footer__rights">
+          <div class="footer__rights-left">
+            <div>Всi права захищенi © 2020 Оптика Люксор</div>
+          </div>
+          <div class="footer__rights-links">
+            <a href="" class="footer__rights-link">ПоЛIтика КонфiденЦiйностi</a>
+            <a href="" class="footer__rights-link">Правила користування сайтом</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/faq.js"></script>
+</body>
+
+</html>

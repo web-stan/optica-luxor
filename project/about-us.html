@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./bundle.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <div class="popup registration" >
+      <div class="popup__wrapper">
+
+        <div class="popup__image">
+          <img src="./images/popup-registration.png" alt="" class="popup__img"></div>
+        <!-- popup__container -->
+        <div class="popup__right">
+          <form class="form-registration popup__container">
+            <div class="popup__close">
+              <span class="popup__close-line popup__close1"></span>
+              <span class="popup__close-line popup__close2"></span>
+            </div>
+            <div class="popup__title">реєстрація</div>
+            <div class="popup__notice">Є профiль, увiйдiть до свого профiлю <a href="#">ВXIД</a>
+            </div>
+
+            <div class="popup__tabs">
+              <div class="popup__tabs-labels">
+                <div class="popup__tab active">По EMAIL</div>
+                <div class="popup__tab">ЗА номером телефону</div>
+              </div>
+
+              <div class="popup__tabs-contents">
+                <!-- .popup__tabs-content -->
+                <div class="popup__tabs-content active">
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="text" class="popup__input popup__input-name">
+                    <div class="popup__floating-label">Iм’я</div>
+                  </div>
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="email" class="popup__input popup__input-phone">
+                    <div class="popup__floating-label">Email</div>
+                  </div>
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="password" class="popup__input popup__input-phone">
+                    <div class="popup__floating-label">Пароль</div>
+                  </div>
+
+                  <div class="popup__rules">
+                    <input class="popup__checkbox" id="registrationChecked1" type="checkbox" hidden>
+                    <label for="registrationChecked1" class="popup__rules-label">
+                      Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+                    </label>
+                  </div>
+
+                  <div class="popup__button-box">
+                    <button type="button" class="popup__button">ЗАреєструватися</button>
+                  </div>
+                </div><!-- .popup__tabs-content -->
+
+                <!-- .popup__tabs-content -->
+                <div class="popup__tabs-content">
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="text" class="popup__input popup__input-name">
+                    <div class="popup__floating-label">Номер телефону</div>
+                  </div>
+
+                  <div class="popup__rules">
+                    <input class="popup__checkbox" id="registrationChecked" type="checkbox" hidden>
+                    <label for="registrationChecked" class="popup__rules-label">
+                      Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+                    </label>
+                  </div>
+
+                  <div class="popup__button-box">
+                    <button type="button" class="popup__button">НадiСЛАТИ ПАРОЛЬ ВХОДУ</button>
+                  </div>
+                </div><!-- .popup__tabs-content -->
+              </div>
+            </div>
+
+          </form><!-- popup__container -->
+
+          <div class="popup__bottom">
+            <div class="popup__bottom-info">Або увiйдiть через соцiальнi мережi</div>
+            <div class="popup__bottom-links">
+              <a href="" class="popup__bottom-link">
+                <img src="./images/icons/popup-google.svg" alt=""></a>
+              <a href="" class="popup__bottom-link">
+                <img src="./images/icons/popup-facebook.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="popup entrance">
+      <div class="popup__wrapper">
+
+        <div class="popup__image">
+          <img src="./images/popup-entrance.png" alt="" class="popup__img"></div>
+        <!-- popup__container -->
+        <div class="popup__right">
+          <form class="form-entrance popup__container">
+            <div class="popup__close">
+              <span class="popup__close-line popup__close1"></span>
+              <span class="popup__close-line popup__close2"></span>
+            </div>
+            <div class="popup__title">ВХIД</div>
+            <div class="popup__notice">Немає профiлю, зареєструйтесь <a href="#">реєстрація</a>
+            </div>
+
+            <div class="popup__tabs">
+              <div class="popup__tabs-labels">
+                <div class="popup__tab active">По EMAIL</div>
+                <div class="popup__tab">ЗА номером телефону</div>
+              </div>
+
+              <div class="popup__tabs-contents">
+                <!-- .popup__tabs-content -->
+                <div class="popup__tabs-content active">
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="email" class="popup__input popup__input-name">
+                    <div class="popup__floating-label">Email</div>
+                  </div>
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="password" class="popup__input popup__input-phone">
+                    <div class="popup__floating-label">Пароль</div>
+                  </div>
+                  <div class="popup__button-box">
+                    <button type="button" class="popup__button popup__button-enter">УВIЙТИ</button>
+                    <button type="button" class="popup__button popup__button-forgot-password">ЗАБУЛИ ПАРОЛЬ?</button>
+                  </div>
+                </div><!-- .popup__tabs-content -->
+
+                <!-- .popup__tabs-content -->
+                <div class="popup__tabs-content">
+                  <div class="popup__input-box">
+                    <input placeholder=" " type="text" class="popup__input popup__input-name">
+                    <div class="popup__floating-label">Номер телефону</div>
+                  </div>
+                  <div class="popup__button-box">
+                    <button type="button" class="popup__button">НадiСЛАТИ ПАРОЛЬ ВХОДУ</button>
+                  </div>
+                </div><!-- .popup__tabs-content -->
+              </div>
+            </div>
+
+          </form><!-- popup__container -->
+          <div class="popup__bottom">
+            <div class="popup__bottom-info">Або увiйдiть через соцiальнi мережi</div>
+            <div class="popup__bottom-links">
+              <a href="" class="popup__bottom-link">
+                <img src="./images/icons/popup-google.svg" alt=""></a>
+              <a href="" class="popup__bottom-link">
+                <img src="./images/icons/popup-facebook.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup code">
+        <!-- popup__container -->
+        <div class="popup__right">
+          <form class="form-code popup__container">
+            <div class="popup__close">
+              <span class="popup__close-line popup__close1"></span>
+              <span class="popup__close-line popup__close2"></span>
+            </div>
+            <div class="popup__title">Введiть код з СМС</div>
+            <div class="popup__notice">Я не отримав СМС з кодом, <a href="#">Надiслати Ще раз</a>
+            </div>
+
+          <!-- .popup__tabs-content -->
+            <div class="popup__input-box">
+              <input placeholder=" " type="email" class="popup__input popup__input-name">
+              <div class="popup__floating-label">Код</div>
+            </div>
+
+            <div class="popup__rules">
+              <input class="popup__checkbox" id="registrationChecked4" type="checkbox" hidden>
+              <label for="registrationChecked4" class="popup__rules-label">
+                Я ознакомлен с <a target="_blank" href="#">Правилами сайта</a> и <a target="_blank" href="#">Политикой конфеденциальности...</a>
+              </label>
+            </div>
+
+            <div class="popup__button-box">
+              <button type="button" class="popup__button popup__button-enter">УВIЙТИ</button>
+            </div>
+          </form><!-- popup__container -->
+        </div>
+    </div>
+
+    <div class="popup-call">
+      <form class="form-popup-call popup-call__wrapper">
+        <div class="popup-call__close">
+          <span class="popup-call__close-line popup-call__close1"></span>
+          <span class="popup-call__close-line popup-call__close2"></span></div>
+        <div class="popup-call__title">ЗАмовИТИ зворотнiй дзвiнок</div>
+        <div class="popup-call__input-box">
+          <input placeholder=" " type="text" class="popup-call__input popup-call__input-name">
+          <div class="popup-call__floating-label">Прiзвище та Iм’я</div>
+        </div>
+        <div class="popup-call__input-box">
+          <input placeholder=" " type="text" class="popup-call__input popup-call__input-phone">
+          <div class="popup-call__floating-label">Номер Вашого телефону</div>
+        </div>
+
+        <button class="popup-call__btn">ЗАМОВИТИ ДЗВIНОК</button>
+
+      </form>
+    </div>
+
+
+    <div class="menu">
+      <!-- .header__categories -->
+      <div class="menu__categories">
+        <div class="menu__category-wrapper">
+          <div class="menu__category menu__category-frame">
+            <span>Оправи</span>
+            <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+            </svg>
+          </div>
+
+          <!-- category-details  frame-->
+          <div class="menu-details menu-details--frame">
+            <!-- <div class="category-details__wrapper"> -->
+            <ul class="menu-details__list">
+              <li class="menu-details__title"><a href="#">назва Категорiї</a></li>
+              <li class="menu-details__id"><a href="#">Squadrata</a></li>
+              <li class="menu-details__id"><a href="#">Round</a></li>
+              <li class="menu-details__id"><a href="#">Drop</a></li>
+              <li class="menu-details__id"><a href="#">Rectangular</a></li>
+              <li class="menu-details__id"><a href="#">Cat Eye</a></li>
+              <li class="menu-details__id"><a href="#">Geometric</a></li>
+              <li class="menu-details__id"><a href="#">Oval</a></li>
+            </ul>
+            <ul class="menu-details__list menu-details__list--mod">
+              <li class="menu-details__title"><a href="#">бренди</a></li>
+              <li class="menu-details__id"><a href="#">Polaroid</a></li>
+              <li class="menu-details__id"><a href="#">Ray-Ban</a></li>
+              <li class="menu-details__id"><a href="#">Oakley</a></li>
+              <li class="menu-details__id"><a href="#">Dolche & Gabbana</a></li>
+            </ul>
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div class="menu__category-wrapper">
+          <div class="menu__category menu__category-sunglasses">
+            <span>Сонцезахиснi оКуляри</span>
+            <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+            </svg>
+          </div>
+
+          <div class="menu-details menu-details--sunglasses">
+            <ul class="menu-details__list">
+              <li class="menu-details__title"><a href="#">назва Категорiї</a></li>
+              <li class="menu-details__id"><a href="#">Squadrata</a></li>
+              <li class="menu-details__id"><a href="#">Round</a></li>
+              <li class="menu-details__id"><a href="#">Drop</a></li>
+              <li class="menu-details__id"><a href="#">Rectangular</a></li>
+              <li class="menu-details__id"><a href="#">Cat Eye</a></li>
+              <li class="menu-details__id"><a href="#">Geometric</a></li>
+              <li class="menu-details__id"><a href="#">Oval</a></li>
+            </ul>
+            <ul class="menu-details__list menu-details__list--mod">
+              <li class="menu-details__title"><a href="#">бренди</a></li>
+              <li class="menu-details__id"><a href="#">Polaroid</a></li>
+              <li class="menu-details__id"><a href="#">Ray-Ban</a></li>
+              <li class="menu-details__id"><a href="#">Oakley</a></li>
+              <li class="menu-details__id"><a href="#">Dolche & Gabbana</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu__category-wrapper">
+          <div class="menu__category menu__category-lenses">
+            <span>Контактнi ЛIнзИ</span>
+            <svg class="menu__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+            </svg>
+          </div>
+          <div class="menu-details menu-details--lenses">
+
+            <ul class="menu-details__list">
+              <li class="menu-details__title"><a href="#">Марка / Бренд</a></li>
+              <li class="menu-details__id"><a href="#">Squadrata</a></li>
+              <li class="menu-details__id"><a href="#">Round</a></li>
+              <li class="menu-details__id"><a href="#">Drop</a></li>
+              <li class="menu-details__id"><a href="#">Rectangular</a></li>
+            </ul>
+            <ul class="menu-details__list menu-details__list--mod">
+              <li class="menu-details__title"><a href="#">терміни носіння</a></li>
+              <li class="menu-details__id"><a href="#">Одноденні лінзи</a></li>
+              <li class="menu-details__id"><a href="#">Двотижневі</a></li>
+              <li class="menu-details__id"><a href="#">Мiсячнi</a></li>
+              <li class="menu-details__id"><a href="#">Лінзи на 3 місяці</a></li>
+              <li class="menu-details__id"><a href="#">Пiврічні</a></li>
+              <li class="menu-details__id"><a href="#">Річні</a></li>
+              <li class="menu-details__id"><a href="#">Астигматичні</a></li>
+              <li class="menu-details__id"><a href="#">Кольоровi лiнзи</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href=# class="menu__services">Послуги</a>
+      </div>
+      <!-- .header__wrapper -->
+      <div class="menu__bottom-wrapper">
+        <div class="header__lang-wrapper">
+          <div class="header__lang">
+            <span>UA</span>
+            <svg class="header__arrow header__lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+            </svg>
+          </div>
+          <div class="header__dropdown-wrapper">
+            <div class="header__lang-dropdown">
+              <a href="#" class="header__lang-dropdown-item">RU</a>
+              <a href="#" class="header__lang-dropdown-item">UA</a>
+              <a href="#" class="header__lang-dropdown-item">EN</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__bottom-box">
+          <div class="header__private-wrapper menu-entrance">
+            <!-- добавляем класс .block когда НЕЗАрегистрирован -->
+            <div class="header__private-text block">Увiйти</div>
+
+            <!-- добавляем класс .registered когда ЗАрегистрирован  -->
+            <div class="header__private-text">Вийти</div>
+            <div class="header__icon header__private">
+              <img src="./images/icons/private.svg" alt="">
+            </div>
+          </div>
+          <div class="header__icon header__selected">
+            <img src="./images/icons/selected.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SECTION main-screen -->
+    <section class="main-screen white-bg">
+      <div class="container">
+        <div class="header">
+          <div class="humburger">
+            <div class="humburger__line humburger__line-first"></div>
+            <div class="humburger__line humburger__line-second"></div>
+            <div class="humburger__line humburger__third"></div>
+          </div>
+          <a href="#" class="header__logo">
+            <img src="./images/luxor-logo.png" alt="">
+          </a>
+          <!-- .header__categories -->
+          <div class="header__categories">
+            <div class="header__category-wrapper">
+              <a href="#" class="header__category header__category-frame">
+                <span>Оправи</span>
+                <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+                </svg>
+              </a>
+
+              <!-- category-details  frame-->
+              <div class="category-details">
+                <!-- <div class="category-details__wrapper"> -->
+                <ul class="category-details__list">
+                  <li class="category-details__title"><a href="#">назва Категорiї</a></li>
+                  <li class="category-details__id"><a href="#">Squadrata</a></li>
+                  <li class="category-details__id"><a href="#">Round</a></li>
+                  <li class="category-details__id"><a href="#">Drop</a></li>
+                  <li class="category-details__id"><a href="#">Rectangular</a></li>
+                  <li class="category-details__id"><a href="#">Cat Eye</a></li>
+                  <li class="category-details__id"><a href="#">Geometric</a></li>
+                  <li class="category-details__id"><a href="#">Oval</a></li>
+                </ul>
+                <ul class="category-details__list category-details__list--mod">
+                  <li class="category-details__title"><a href="#">бренди</a></li>
+                  <li class="category-details__id"><a href="#">Polaroid</a></li>
+                  <li class="category-details__id"><a href="#">Ray-Ban</a></li>
+                  <li class="category-details__id"><a href="#">Oakley</a></li>
+                  <li class="category-details__id"><a href="#">Dolche & Gabbana</a></li>
+                </ul>
+                <!-- </div> -->
+
+                <div class="category-details__wrapper">
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- category-layout -->
+              <div class="category-layout"></div>
+            </div>
+
+            <div class="header__category-wrapper">
+              <a href="#" class="header__category header__category-sunglasses">
+                <span>Сонцезахиснi оКуляри</span>
+                <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+                </svg>
+              </a>
+
+               <!-- category-details  frame-->
+               <div class="category-details">
+                <!-- <div class="category-details__wrapper"> -->
+                <ul class="category-details__list">
+                  <li class="category-details__title"><a href="#">назва Категорiї</a></li>
+                  <li class="category-details__id"><a href="#">Squadrata</a></li>
+                  <li class="category-details__id"><a href="#">Round</a></li>
+                  <li class="category-details__id"><a href="#">Drop</a></li>
+                  <li class="category-details__id"><a href="#">Rectangular</a></li>
+                  <li class="category-details__id"><a href="#">Cat Eye</a></li>
+                  <li class="category-details__id"><a href="#">Geometric</a></li>
+                  <li class="category-details__id"><a href="#">Oval</a></li>
+                </ul>
+                <ul class="category-details__list category-details__list--mod">
+                  <li class="category-details__title"><a href="#">бренди</a></li>
+                  <li class="category-details__id"><a href="#">Polaroid</a></li>
+                  <li class="category-details__id"><a href="#">Ray-Ban</a></li>
+                  <li class="category-details__id"><a href="#">Oakley</a></li>
+                  <li class="category-details__id"><a href="#">Dolche & Gabbana</a></li>
+                </ul>
+                <!-- </div> -->
+
+                <div class="category-details__wrapper">
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item">
+                    <img src="./images/optica-frame.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Guess 1982 002
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old"></span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- category-layout -->
+              <div class="category-layout"></div>
+            </div>
+
+            <div class="header__category-wrapper">
+              <a href="#" class="header__category header__category-lenses">
+                <span>Контактнi ЛIнзИ</span>
+                <svg class="header__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+                </svg>
+              </a>
+              <!-- category-details lenses"-->
+              <div class="category-details ">
+                <!-- <div class="category-details__wrapper"> -->
+                <ul class="category-details__list">
+                  <li class="category-details__title"><a href="#">Марка / Бренд</a></li>
+                  <li class="category-details__id"><a href="#">Squadrata</a></li>
+                  <li class="category-details__id"><a href="#">Round</a></li>
+                  <li class="category-details__id"><a href="#">Drop</a></li>
+                  <li class="category-details__id"><a href="#">Rectangular</a></li>
+                </ul>
+                <ul class="category-details__list category-details__list--mod">
+                  <li class="category-details__title"><a href="#">терміни носіння</a></li>
+                  <li class="category-details__id"><a href="#">Одноденні лінзи</a></li>
+                  <li class="category-details__id"><a href="#">Двотижневі</a></li>
+                  <li class="category-details__id"><a href="#">Мiсячнi</a></li>
+                  <li class="category-details__id"><a href="#">Лінзи на 3 місяці</a></li>
+                  <li class="category-details__id"><a href="#">Пiврічні</a></li>
+                  <li class="category-details__id"><a href="#">Річні</a></li>
+                  <li class="category-details__id"><a href="#">Астигматичні</a></li>
+                  <li class="category-details__id"><a href="#">Кольоровi лiнзи</a></li>
+                </ul>
+                <!-- </div> -->
+
+                <div class="category-details__wrapper ">
+                  <a href="#" class="category-details__item lenses">
+                    <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Одноденні контактні лінзи Alcon Dailies Aqua
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old">
+                          1 499 грн
+                        </span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item lenses">
+                    <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Одноденні контактні лінзи Alcon Dailies Aqua
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old">
+                          1 499 грн
+                        </span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="category-details__item lenses">
+                    <img src="./images/odnodenni-kontaktni-linzi.png" alt="">
+                    <!-- category-details__item-descr -->
+                    <div class="category-details__item-descr">
+                      <div class="category-details__item-info">
+                        Одноденні контактні лінзи Alcon Dailies Aqua
+                      </div>
+                      <div class="category-details__item-price">
+                        <span class="category-details__item-price-old">
+                          1 499 грн
+                        </span>
+                        <span class="category-details__item-price-new">
+                          3 050 грн
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- category-layout -->
+              <div class="category-layout"></div>
+            </div>
+
+            <a href=# class="header__services">Послуги</a>
+
+          </div>
+
+          <!-- .header__wrapper -->
+          <div class="header__wrapper">
+            <div class="header__lang-wrapper">
+              <div class="header__lang">
+                <span>UA</span>
+                <svg class="header__arrow header__lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 -5.09966e-08L10 1.13514L5 6L-4.96183e-08 1.13513L1.16667 -3.86117e-07L5 3.72973L8.83333 -5.09966e-08Z" fill="#AE001A" />
+                </svg>
+              </div>
+              <div class="header__dropdown-wrapper">
+                <div class="header__lang-dropdown">
+                  <a class="header__lang-dropdown-item">RU</a>
+                  <a class="header__lang-dropdown-item">UA</a>
+                  <a class="header__lang-dropdown-item">EN</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="header__icon header__search">
+              <img src="./images/icons/search.svg" alt="">
+            </div>
+
+            <div class="header__search-open-wrapper">
+              <div class="header__search-open ">
+                <div class="header__search-input-box">
+                  <img class="header__search-search" src="./images/icons/search.svg" alt="">
+                  <input type="text" class="header__search-input" placeholder="Пошук...">
+                  <img class="header__search-close" src="./images/icons/header-search-close.svg" alt="">
+                </div>
+
+                <div class="header__search-icon">
+                  <img src="./images/icons/header-search-icon.svg" alt="">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="header__private-wrapper">
+              <div class="header__icon header__private">
+                <img src="./images/icons/private.svg" alt="">
+              </div>
+              <div class="header__dropdown-wrapper">
+                <!-- добавляем класс .block когда ЗАрегистрирован  -->
+                <div class="header__registered-dropdown">
+                  <a href="#" class="header__registered-dropdown-item">МIЙ КАБIНЕТ</a>
+                  <a href="#" class="header__registered-dropdown-item">ВИЙТИ</a>
+                </div>
+                <!-- добавляем класс .block когда НЕЗАрегистрирован -->
+                <div class="header__notregistered-dropdown block">
+                  <a href="#" class="header__notregistered-dropdown-item header__notregistered-dropdown-enter">УВIЙТИ</a>
+                  <a href="#" class="header__notregistered-dropdown-item header__notregistered-dropdown-item-registration">ЗАреєстрУВАТИСЬ</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__icon header__selected">
+              <img src="./images/icons/selected.svg" alt="">
+            </div>
+            <!-- при добавления товара в корзину, добавляем класс .inside -->
+            <div class="header__icon header__basket inside">
+              <a href="#">
+                <img src="./images/icons/basket.svg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="header-message">
+            <!-- При отображении сообщени добавть класс .show -->
+            <div class="header-message__info green show-">Товар додано в кошик</div>
+          </div>
+
+          <div class="header-message">
+            <!-- При отображении сообщени добавть класс .show -->
+            <div class="header-message__info red show-">Товар додано до вподобаних</div>
+          </div>
+
+          <div class="header-message">
+            <!-- При отображении сообщени добавть класс .show -->
+            <div class="header-message__info blue show-">Дякую, Ваш вiдгук буде опублiковано пiсля перевiрки модератора</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+      <!-- section description -->
+    <section class="description white-bg">
+      <div class="container">
+        <div class="description__wrpapper">
+          <img class="description__image" src="./images/description-bg.png" alt="">
+          <div class="breadcrumbs">
+            <a href="#" class="breadcrumbs__item">ГОЛОВНА</a><span>/</span><a href="#" class="breadcrumbs__item active">Про нас</a>
+          </div>
+          <div class="description__box description__box--mod1">
+            <h2 class="description__title">Оптика Люксор</h2>
+            <div class="description__decor"></div>
+            <div class="description__text">Мережа салонів оптики на Західній Україні (Чернівці, Львів, Хмельницький, Івано-Франківськ), основною стратегією якої з 2003 р є надання якісних оптичних послуг, на основі передових технологій, за доступною ціною. Наша мета - допомогти Вам подбати про Ваші очі.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION mission -->
+    <section class="mission white-bg">
+      <div class="container">
+        <div class="mission__wrapper">
+
+          <div class="mission__our-mission mission__container">
+            <div class="mission__our-mission-title mission__title">Наша місія:</div>
+            <div class="mission__our-mission-text mission__text">Задовольняти потребу в якісних оптичних товарах і офтальмологічних послугах, щоб кожен клієнт мав доступ до широкого асортименту модних сонцезахисних окулярів, стильних і зручних оправ, високого рівня медичного та консультативного обслуговування.</div>
+          </div>
+          <div class="mission__our-philosophy mission__container">
+            <div class="mission__our-philosophy-title mission__title">Наша філософія:
+            </div>
+            <div class="mission__our-philosophy-text mission__text">Задовольняти потребу в якісних оптичних товарах і офтальмологічних послугах, щоб кожен клієнт мав доступ до широкого асортименту модних сонцезахисних окулярів, стильних і зручних оправ, високого рівня медичного та консультативного обслуговування.</div>
+          </div>
+
+          <div class="mission-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide mission-slider__slide">
+                <div class="mission-slider__image">
+                  <img src="./images/mission-slider-bg.png" alt="" class="mission__slide-img">
+
+                </div>
+                <div class="mission__info mission__container">
+                  <div class="mission__our-mission-text mission__text">У нас Ви знайдете великий вибір оптичних лінз різних виробників, як зі світовим ім'ям (Zeiss, Essilor, Seiko, JZO), так і менш іменитих брендів. Наші консультанти допоможуть Вам визначитися з вибором лінз, які будуть максимально відповідати Вашим потребам. Будь-то окуляри для роботи за комп'ютером, окуляри для водіння, окуляри для читання або постійного носіння (біфокальні, мультифокальні або прогресивні окуляри). Також завжди в наявності великий вибір лінз з УФ фільтром, поляризаційних і фотохромних лінз.</div>
+                </div>
+              </div>
+              <div class="swiper-slide mission-slider__slide">
+                <div class="mission-slider__image">
+                  <img src="./images/mission-slider-bg.png" alt="" class="mission__slide-img">
+
+                </div>
+                <div class="mission__info mission__container">
+                  <div class="mission__our-mission-text mission__text">У нас Ви знайдете великий вибір оптичних лінз різних виробників, як зі світовим ім'ям (Zeiss, Essilor, Seiko, JZO), так і менш іменитих брендів. Наші консультанти допоможуть Вам визначитися з вибором лінз, які будуть максимально відповідати Вашим потребам. Будь-то окуляри для роботи за комп'ютером, окуляри для водіння, окуляри для читання або постійного носіння (біфокальні, мультифокальні або прогресивні окуляри). Також завжди в наявності великий вибір лінз з УФ фільтром, поляризаційних і фотохромних лінз.</div>
+                </div>
+              </div>
+              <div class="swiper-slide mission-slider__slide">
+                <div class="mission-slider__image">
+                  <img src="./images/mission-slider-bg.png" alt="" class="mission__slide-img">
+
+                </div>
+                <div class="mission__info mission__container">
+                  <div class="mission__our-mission-text mission__text">У нас Ви знайдете великий вибір оптичних лінз різних виробників, як зі світовим ім'ям (Zeiss, Essilor, Seiko, JZO), так і менш іменитих брендів. Наші консультанти допоможуть Вам визначитися з вибором лінз, які будуть максимально відповідати Вашим потребам. Будь-то окуляри для роботи за комп'ютером, окуляри для водіння, окуляри для читання або постійного носіння (біфокальні, мультифокальні або прогресивні окуляри). Також завжди в наявності великий вибір лінз з УФ фільтром, поляризаційних і фотохромних лінз.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev swiper-button"><img src="./images/icons/slider-arrow.svg" alt=""></div>
+            <div class="swiper-button-next swiper-button"><img src="./images/icons/slider-arrow.svg" alt=""></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION our-stuff -->
+    <section class="our-stuff">
+      <div class="container">
+        <div class="our-stuff__wrapper">
+          <img class="our-stuff__image" src="./images/our-stuff-bg.png" alt="our-stuff-bg.png">
+          <div class="our-stuff__box our-stuff__box--mod1">
+            <div class="our-stuff__subtitle subtitle">нашi професiонали</div>
+            <h2 class="our-stuff__title">Лiкарi-офтальмологи Люксор Оптика</h2>
+            <div class="our-stuff__text">Гарний зір - це один з важливих аспектів розвитку будь-якої людини, особливо в дитячому віці. Розвиток органу зору у дитини триває допоки вона росте і дуже важливо протягом усього цього часу контролювати гостроту і якість зору. </div>
+            <a href="#" class="our-stuff__link link">Познайомитись ближче</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-luxor">
+      <div class="container container--mod services-luxor__container">
+        <div class="services-luxor__wrapper-title">
+          <div class="services-luxor__big-title">ПОСЛУГИ</div>
+          <h2 class="services-luxor__small-title">Послуги Люксор Оптики</h2>
+        </div>
+        <div class="services-luxor__slider">
+          <div class="swiper-wrapper">
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-3.png" alt=""></div>
+              <div class="services-luxor__slide-title">Нічна корекція зору</div>
+              <div class="services-luxor__slide-text">Ортокератологія або нічна корекція - це використання жорстких киснепроникних лінз спеціального дизайну, які одягаються на ніч. Поки Ви спите, лінзи дуже делікатно змінюють передню поверхню рогівки таким чином...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-2.png" alt=""></div>
+              <div class="services-luxor__slide-title">Дитяча офтальмологiя</div>
+              <div class="services-luxor__slide-text">Гарний зір - це один з важливих аспектів розвитку будь-якої людини, особливо в дитячому віці. Розвиток органу зору у дитини триває допоки вона росте і дуже важливо протягом усього цього часу контролювати гостроту і якість зору.</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-1.png" alt=""></div>
+              <div class="services-luxor__slide-title">Підбір окулярів</div>
+              <div class="services-luxor__slide-text">Розібратися в різноманітті оптичних оправ і сонцезахисних окулярів - завдання, підчас, не з простих. Особливо, якщо Ви ніколи не носили окуляри. В "Оптика Люксор" працюють професійні консультанти, які готові допомогти Вам...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-3.png" alt=""></div>
+              <div class="services-luxor__slide-title">Дитяча офтальмологiя</div>
+              <div class="services-luxor__slide-text">Ортокератологія або нічна корекція - це використання жорстких киснепроникних лінз спеціального дизайну, які одягаються на ніч. Поки Ви спите, лінзи дуже делікатно змінюють передню поверхню рогівки таким чином...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-2.png" alt=""></div>
+              <div class="services-luxor__slide-title">Дитяча офтальмологiя</div>
+              <div class="services-luxor__slide-text">Гарний зір - це один з важливих аспектів розвитку будь-якої людини, особливо в дитячому віці. Розвиток органу зору у дитини триває допоки вона росте і дуже важливо протягом усього цього часу контролювати гостроту і якість зору.</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-1.png" alt=""></div>
+              <div class="services-luxor__slide-title">Підбір окулярів</div>
+              <div class="services-luxor__slide-text">Розібратися в різноманітті оптичних оправ і сонцезахисних окулярів - завдання, підчас, не з простих. Особливо, якщо Ви ніколи не носили окуляри. В "Оптика Люксор" працюють професійні консультанти, які готові допомогти Вам...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-3.png" alt=""></div>
+              <div class="services-luxor__slide-title">Нічна корекція зору</div>
+              <div class="services-luxor__slide-text">Ортокератологія або нічна корекція - це використання жорстких киснепроникних лінз спеціального дизайну, які одягаються на ніч. Поки Ви спите, лінзи дуже делікатно змінюють передню поверхню рогівки таким чином...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-2.png" alt=""></div>
+              <div class="services-luxor__slide-title">Дитяча офтальмологiя</div>
+              <div class="services-luxor__slide-text">Гарний зір - це один з важливих аспектів розвитку будь-якої людини, особливо в дитячому віці. Розвиток органу зору у дитини триває допоки вона росте і дуже важливо протягом усього цього часу контролювати гостроту і якість зору.</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+            <div class="services-luxor__slide swiper-slide">
+              <div class="services-luxor__slide-img"><img src="./images/services-luxor__slide-1.png" alt=""></div>
+              <div class="services-luxor__slide-title">Підбір окулярів</div>
+              <div class="services-luxor__slide-text">Розібратися в різноманітті оптичних оправ і сонцезахисних окулярів - завдання, підчас, не з простих. Особливо, якщо Ви ніколи не носили окуляри. В "Оптика Люксор" працюють професійні консультанти, які готові допомогти Вам...</div>
+              <a href="#" class="services-luxor__slide-link link">Дiзнатись бiльше</a>
+            </div>
+          </div>
+          <div class="services-luxor__pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container container--mod">
+        <div class="footer__background">
+          <div class="footer__top">
+            <!-- footer__common -->
+            <div class="footer__common">
+              <div class="footer__logo">
+                <img src="./images/footer-logo.png" alt="">
+              </div>
+
+              <div class="footer__short-descr">Оптика Люксор - це весь спектр офтальмологічних послуг та оптичних товарів.</div>
+              <div class="footer__phone">
+                <span class="footer__phone-icon"><img src="./images/icons/footer-phone-icon.svg" alt=""></span>
+                <a href="tel:+38 (066) 513 55 90" class="footer__phone-number">+38 (066) 513 55 90</a>
+              </div>
+              <div class="footer__phone">
+                <span class="footer__phone-icon"><img src="./images/icons/footer-phone-icon.svg" alt=""></span>
+                <a href="tel:+38 (097) 990 44 00" class="footer__phone-number">+38 (097) 990 44 00</a>
+              </div>
+              <div class="footer__button-wrapper">
+                <button class="footer__button">ЗАМОВИТИ ЗВОНОК</button>
+              </div>
+            </div>
+
+            <!-- footer__links -->
+            <div class="footer__links">
+              <!-- footer__link-column -->
+              <div class="footer__link-column">
+                <div class="footer__links-title">КАТАЛОГ</div>
+                <a href="#" class="footer__links-link">КОНТАКТНІ ЛІНЗИ
+                </a>
+                <a href="#" class="footer__links-link">СОНЦЕЗАХИСНІ ОКУЛЯРИ</a>
+                <a href="#" class="footer__links-link">ОКУЛЯРНІ ЛІНЗИ</a>
+                <a href="#" class="footer__links-link">ПЕНСНЕ SEEOO
+                </a>
+                <a href="#" class="footer__links-link">ОПРАВИ</a>
+              </div>
+              <!-- footer__link-column -->
+              <div class="footer__link-column footer__link-column--padding">
+                <div class="footer__links-title">СУПУТНI ТОВАРИ</div>
+                <a href="#" class="footer__links-link">РОЗЧИНИ ДЛЯ ЛІНЗ
+                </a>
+                <a href="#" class="footer__links-link">ЗВОЛОЖУЮЧІ КРАПЛІ
+                </a>
+                <a href="#" class="footer__links-link">ФУТЛЯРИ ДЛЯ ОКУЛЯРІВ</a>
+                <a href="#" class="footer__links-link">АКЦІЙНА ПРОПОЗИЦІЯ
+                </a>
+                <a href="#" class="footer__links-link">СУПУТНІ ТОВАРИ</a>
+              </div>
+              <!-- footer__link-column -->
+              <div class="footer__link-column footer__link-column--mod">
+                <div class="footer__links-title">ПРО НАС</div>
+                <a href="#" class="footer__links-link">ПОСЛУГИ
+                </a>
+                <a href="#" class="footer__links-link">Про нас</a>
+                <a href="#" class="footer__links-link">Лiкарi-офтальмологи</a>
+                <a href="#" class="footer__links-link">Салони
+                </a>
+                <a href="#" class="footer__links-link">Контакти</a>
+              </div>
+              <!-- footer__link-column -->
+              <div class="footer__link-column footer__link-column--mod footer__link-column--padding">
+                <div class="footer__links-title">IНШЕ</div>
+                <a href="#" class="footer__links-link">Питання та Вiдповiдi
+                </a>
+                <a href="#" class="footer__links-link">особистий кабiнет</a>
+                <a href="#" class="footer__links-link">Оплата та доставка</a>
+                <a href="#" class="footer__links-link">Гарантiя та Повернення
+                </a>
+                <a href="#" class="footer__links-link">НОВИНИ</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="footer__bottom">
+            <!-- footer__advantages -->
+            <div class="footer__advantages">
+              <div class="footer__advantages-title">Більше переваг для вас! Пiдпишиться на розсилку
+              </div>
+              <ul class="footer__advantages-list">
+                <li class="footer__advantages-item">Акційні пропозиції</li>
+                <li class="footer__advantages-item">Промокоди зі знижками</li>
+                <li class="footer__advantages-item">Новини</li>
+              </ul>
+              <div class="footer__email">
+                <input type="email" class="footer__advantages-email"></input>
+                <div class="footer__email-icon"><img src="./images/icons/footer-icon-plane.svg" alt=""></div>
+                <div class="footer__floating-label">
+                  Email
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__bottom-wrapper">
+              <!-- footer__payment-system -->
+              <div class="footer__payment-system">
+                <div class="footer__payment-system-logo">
+                  <img src="./images/footer-visa.png" alt=""></div>
+                <div class="footer__payment-system-logo">
+                  <img src="./images/footer-mastercard.png" alt=""></div>
+              </div>
+
+              <!-- footer__social -->
+              <div class="footer__social">
+                <div class="footer__search footer__search--mod1">
+                  <input placeholder="Не знайшли iнформацiю, скористайтесь пошуком..." type="text" class="footer__search-input">
+                  <div class="footer__search-icon">
+                    <img src="./images/icons/footer-search-icon.svg" alt=""></div>
+                </div>
+                <div class="footer__search footer__search--mod2">
+                  <input placeholder="Скористайтесь пошуком..." type="text" class="footer__search-input">
+                  <div class="footer__search-icon">
+                    <img src="./images/icons/footer-search-icon.svg" alt=""></div>
+                </div>
+
+                <div class="footer__social-wrapper">
+                  <span class="footer__social-text">Ми в соцiальних медiа</span>
+                  <a href="#" class="footer__social-network footer__social-network--mod">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0V30H15.9768V18.4116H12.0712V13.6809H15.9768V9.70798C15.9768 6.81858 18.3191 4.47627 21.2085 4.47627H25.2916V8.73024H22.37C21.4518 8.73024 20.7075 9.47456 20.7075 10.3927V13.681H25.2182L24.5948 18.4117H20.7075V30H30V0H0Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                  <a href="#" class="footer__social-network">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM0 0V30H30V0H0ZM25.03 19.9697C25.03 22.7602 22.7602 25.03 19.9697 25.03H10.0303C7.23981 25.03 4.97005 22.7602 4.97005 19.9697V10.0303C4.97005 7.23981 7.23981 4.97005 10.0303 4.97005H19.9697C22.7602 4.97005 25.03 7.23981 25.03 10.0303V19.9697ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017ZM19.9697 7.15292H10.0303C8.44382 7.15292 7.15292 8.44382 7.15292 10.0303V19.9697C7.15292 21.5562 8.44382 22.8471 10.0303 22.8471H19.9697C21.5562 22.8471 22.8471 21.5562 22.8471 19.9697V10.0303C22.8471 8.44382 21.5562 7.15292 19.9697 7.15292ZM14.9997 20.1665C12.1513 20.1665 9.83345 17.8487 9.83345 14.9997C9.83345 12.1513 12.1513 9.83345 14.9997 9.83345C17.8487 9.83345 20.1665 12.1513 20.1665 14.9997C20.1665 17.8487 17.8487 20.1665 14.9997 20.1665ZM20.3324 10.9018C19.6583 10.9018 19.11 10.3535 19.11 9.67941C19.11 9.00533 19.6583 8.45698 20.3324 8.45698C21.0065 8.45698 21.5549 9.00533 21.5549 9.67941C21.5549 10.3535 21.0065 10.9018 20.3324 10.9018ZM14.9997 12.017C13.3553 12.017 12.0163 13.3553 12.0163 14.9997C12.0163 16.6447 13.3553 17.9837 14.9997 17.9837C16.6447 17.9837 17.983 16.6447 17.983 14.9997C17.983 13.3553 16.6447 12.017 14.9997 12.017Z" fill="currentColor" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer__rights -->
+          <div class="footer__rights">
+            <div class="footer__rights-left">
+              <div>Всi права захищенi © 2020 Оптика Люксор</div>
+            </div>
+            <div class="footer__rights-links">
+              <a href="" class="footer__rights-link">ПоЛIтика КонфiденЦiйностi</a>
+              <a href="" class="footer__rights-link">Правила користування сайтом</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/about.js"></script>
+</body>
+
+</html>
