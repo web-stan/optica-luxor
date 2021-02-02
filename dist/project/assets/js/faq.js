@@ -1,0 +1,1 @@
+!function(){"use strict";window.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".accordion__item-wrapper").forEach((function(t){t.addEventListener("click",(function(){t.classList.toggle("active")}))}))}))}();
